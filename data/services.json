@@ -1,0 +1,222 @@
+[
+  {
+    "slug": "sua-may-lanh",
+    "title": "Sửa máy lạnh tận nơi tại Phú Quốc",
+    "shortTitle": "Sửa Máy Lạnh",
+    "description": "Dịch vụ sửa chữa máy lạnh tận nhà tại Dương Đông, Bãi Trường, An Thới... Thợ đến nhanh sau 20 phút, bắt đúng bệnh, báo đúng giá, bảo hành dài hạn từ 3 - 12 tháng.",
+    "priceFrom": "Từ 150.000đ",
+    "tag": "Cấp Cứu 20'",
+    "badgeColor": "bg-hvac-secondary",
+    "image": "/images/sua_1.jpg",
+    "features": [
+      "Có mặt siêu tốc sau 20-30 phút gọi",
+      "Bắt đúng bệnh, báo đúng giá minh bạch",
+      "Kỹ thuật viên hơn 10 năm kinh nghiệm",
+      "Linh kiện thay thế chính hãng 100%",
+      "Bảo hành chu đáo từ 3 đến 12 tháng"
+    ],
+    "issues": [
+      "Máy lạnh không lạnh, chập chờn hoặc chỉ ra gió nóng",
+      "Máy lạnh bị chảy nước ở dàn lạnh gây ướt tường, sàn nhà",
+      "Máy lạnh phát ra tiếng kêu to, rung lắc dữ dội khi vận hành",
+      "Máy lạnh báo lỗi chớp đèn liên tục trên mặt lạnh",
+      "Máy lạnh không nhận remote, mất nguồn đột ngột"
+    ],
+    "process": [
+      { "step": "1", "title": "Tiếp nhận thông tin", "desc": "Khách hàng liên hệ qua Hotline 0961 316 346 hoặc đặt lịch qua form." },
+      { "step": "2", "title": "Khảo sát & Báo giá", "desc": "Thợ đến tận nhà kiểm tra sự cố, đưa ra phương án xử lý và báo giá công khai." },
+      { "step": "3", "title": "Tiến hành sửa chữa", "desc": "Sau khi khách duyệt giá, kỹ thuật viên tiến hành khắc phục sự cố triệt để." },
+      { "step": "4", "title": "Nghiệm thu & Bảo hành", "desc": "Chạy thử kiểm tra độ lạnh sâu, viết phiếu bảo hành và thu phí." }
+    ],
+    "priceTable": [
+      { "item": "Kiểm tra sự cố máy lạnh tận nhà", "price": "Miễn phí (Khi sửa)" },
+      { "item": "Sửa máy lạnh chảy nước / thông ống thoát", "price": "150.000đ - 250.000đ" },
+      { "item": "Thay Tụ quạt / Tụ block máy lạnh (1HP - 2.5HP)", "price": "350.000đ - 550.000đ" },
+      { "item": "Sửa board mạch máy lạnh Mono / Inverter", "price": "550.000đ - 950.000đ" },
+      { "item": "Thay Block máy lạnh (1HP - 2HP)", "price": "Liên hệ báo giá" }
+    ],
+    "faqs": [
+      { "q": "Bao lâu thì thợ điện lạnh Sơn Phát tới nơi?", "a": "Kỹ thuật viên túc trực tại các khu vực Dương Đông, Bãi Trường, An Thới nên sẽ có mặt trong vòng 20 - 30 phút sau khi nhận cuộc gọi." },
+      { "q": "Sửa xong có được bảo hành không?", "a": "Tất cả dịch vụ sửa chữa và thay thế linh kiện tại Sơn Phát đều đi kèm phiếu bảo hành từ 3 đến 12 tháng tùy hạng mục." }
+    ]
+  },
+  {
+    "slug": "ve-sinh-may-lanh",
+    "title": "Vệ sinh & Nạp gas máy lạnh tại nhà",
+    "shortTitle": "Vệ Sinh Máy Lạnh",
+    "description": "Vệ sinh máy lạnh chuyên sâu bằng máy xịt áp lực cao, khử khuẩn dàn lạnh, thông ống thoát nước và bổ sung gas R32/R410A/R22 chính hãng giúp máy lạnh sâu, tiết kiệm 30% điện năng.",
+    "priceFrom": "Từ 120.000đ/máy",
+    "tag": "Khuyên Dùng",
+    "badgeColor": "bg-hvac-primary",
+    "image": "/images/sua_2.jpg",
+    "features": [
+      "Vệ sinh sạch 99% bụi bẩn dàn nóng & dàn lạnh",
+      "Kiểm tra nạp bổ sung gas chuẩn chỉ số PSI",
+      "Diệt khuẩn mùi hôi, phòng tránh bệnh hô hấp",
+      "Tiết kiệm tối đa điện năng hàng tháng",
+      "Giảm giá 15% cho hợp đồng vệ sinh số lượng lớn (Khách sạn, Resort)"
+    ],
+    "issues": [
+      "Máy lạnh yếu lạnh, dù bật 16 độ vẫn thấy nóng",
+      "Máy tỏa ra mùi hôi ẩm mốc khó chịu khi vừa bật",
+      "Dàn lạnh đóng tuyết hoặc chảy nước ngấm tường",
+      "Hóa đơn tiền điện tăng đột biến so với bình thường"
+    ],
+    "process": [
+      { "step": "1", "title": "Kiểm tra máy", "desc": "Bật máy kiểm tra vận hành quạt, nhiệt độ và rò rỉ gas trước khi tháo." },
+      { "step": "2", "title": "Vệ sinh dàn lạnh", "desc": "Bọc bạt chống bắn nước, xịt rửa lá nhôm dàn lạnh, quạt lồng sóc và lưới lọc." },
+      { "step": "3", "title": "Vệ sinh dàn nóng", "desc": "Dùng máy xịt rửa chuyên dụng làm sạch bụi bẩn dàn nóng ngoài trời." },
+      { "step": "4", "title": "Đo gas & Kiểm tra", "desc": "Lắp lại máy, đo áp suất gas, nạp bổ sung nếu thiếu và bàn giao." }
+    ],
+    "priceTable": [
+      { "item": "Vệ sinh máy lạnh treo tường (1HP - 2.5HP)", "price": "150.000đ / máy" },
+      { "item": "Vệ sinh máy lạnh Âm trần / Tủ đứng", "price": "250.000đ - 350.000đ" },
+      { "item": "Nạp bổ sung Gas R32 / R410A ấn định", "price": "100.000đ - 200.000đ" },
+      { "item": "Combo Vệ sinh + Chống ẩm mốc + Nạp Gas đầy đủ", "price": "250.000đ / máy" }
+    ],
+    "faqs": [
+      { "q": "Bao lâu nên vệ sinh máy lạnh một lần?", "a": "Hộ gia đình nên vệ sinh 4 - 6 tháng/lần. Khách sạn, nhà hàng, villa tại Phú Quốc nên vệ sinh 2 - 3 tháng/lần do không khí biển nhiều muối dễ ăn mòn." }
+    ]
+  },
+  {
+    "slug": "bom-gas-may-lanh",
+    "title": "Nạp gas máy lạnh chính hãng R32 / R410A / R22",
+    "shortTitle": "Bơm Gas Máy Lạnh",
+    "description": "Dịch vụ đo áp suất gas, tìm vị trí rò rỉ gas và nạp gas chính hãng Ấn Độ / Nhật Bản cho máy lạnh mono và inverter. Đảm bảo độ lạnh sâu nhanh chóng.",
+    "priceFrom": "Từ 100.000đ",
+    "tag": "Lạnh Sâu",
+    "badgeColor": "bg-cyan-600",
+    "image": "/images/sua_3.jpg",
+    "features": [
+      "Gas chính hãng R32, R410A, R22 nhập khẩu",
+      "Dụng cụ đo áp suất gas kỹ thuật số chuẩn xác",
+      "Xử lý dứt điểm điểm rò rỉ gas trước khi nạp",
+      "Tiết kiệm điện năng, kéo dài tuổi thọ máy"
+    ],
+    "issues": [
+      "Máy lạnh bật lâu không lạnh hoặc làm lạnh rất chậm",
+      "Ống đồng bám tuyết trắng ở dàn nóng",
+      "Máy lạnh chạy liên tục không ngắt lốc"
+    ],
+    "priceTable": [
+      { "item": "Nạp bổ sung Gas R32 / R410A", "price": "150.000đ - 250.000đ" },
+      { "item": "Nạp toàn bộ Gas R32 / R410A (Khóa gas xì)", "price": "350.000đ - 550.000đ" }
+    ]
+  },
+  {
+    "slug": "lap-dat-may-lanh",
+    "title": "Tháo lắp & Đi đường ống máy lạnh Phú Quốc",
+    "shortTitle": "Lắp Đặt Máy Lạnh",
+    "description": "Nhận tháo dời, di chuyển và lắp đặt máy lạnh treo tường, âm trần, tủ đứng cho hộ gia đình, biệt thự, homestay, resort tại Phú Quốc. Thi công ống đồng âm tường đúng kỹ thuật.",
+    "priceFrom": "Từ 250.000đ",
+    "tag": "Thi Công Chuẩn",
+    "badgeColor": "bg-hvac-navy",
+    "image": "/images/lap_1.jpg",
+    "features": [
+      "Khảo sát vị trí lắp đặt thẩm mỹ & tối ưu làm lạnh",
+      "Vật tư vật liệu ống đồng, dây điện loại dày chính hãng",
+      "Hút chân không 100% đảm bảo máy bền bỉ không bị oxy hóa",
+      "Bảo hành lắp đặt vĩnh viễn không bị rò rỉ gas",
+      "Đội ngũ thi công công trình nhanh gọn, sạch sẽ"
+    ],
+    "issues": [
+      "Cần di dời máy lạnh từ phòng này sang phòng khác",
+      "Mới mua máy lạnh cũ/mới cần thợ lắp đặt chuẩn kỹ thuật",
+      "Thi công đường ống đồng âm tường cho nhà mới xây / resort"
+    ],
+    "process": [
+      { "step": "1", "title": "Tư vấn & Khảo sát", "desc": "Tư vấn công suất phù hợp diện tích phòng và chọn vị trí đặt dàn nóng/lạnh." },
+      { "step": "2", "title": "Thi công chuẩn", "desc": "Khoan đục, bắt giá đỡ chắc chắn, đi đường ống đồng bọc cách nhiệt bảo vệ." },
+      { "step": "3", "title": "Hút chân không", "desc": "Dùng máy hút chân không đuổi sạch không khí trong ống trước khi mở gas." },
+      { "step": "4", "title": "Vận hành & Bàn giao", "desc": "Chạy máy nghiệm thu dòng điện, nhiệt độ gió ra và hướng dẫn sử dụng." }
+    ],
+    "priceTable": [
+      { "item": "Công tháo máy lạnh treo tường (1HP - 2.5HP)", "price": "150.000đ - 200.000đ" },
+      { "item": "Công lắp đặt máy lạnh treo tường", "price": "250.000đ - 350.000đ" },
+      { "item": "Combo Tháo + Di dời + Lắp lại máy lạnh", "price": "400.000đ - 500.000đ" },
+      { "item": "Ống đồng Thái Lan bảo ôn đôi (Theo mét)", "price": "160.000đ - 220.000đ/m" }
+    ],
+    "faqs": [
+      { "q": "Tại sao phải hút chân không khi lắp máy lạnh?", "a": "Hút chân không giúp loại bỏ hoàn toàn hơi ẩm và tạp chất trong đường ống, tránh gây mục lốc, làm lạnh kém và nghẹt tiết lưu." }
+    ]
+  },
+  {
+    "slug": "thao-lap-may-lanh",
+    "title": "Di dời & Tháo lắp máy lạnh trọn gói",
+    "shortTitle": "Tháo Lắp Trọn Gói",
+    "description": "Dịch vụ di dời máy lạnh từ nhà cũ sang nhà mới, tháo dời vận chuyển an toàn, khóa gas bảo toàn lượng gas nguyên bản trong máy.",
+    "priceFrom": "Từ 200.000đ",
+    "tag": "Giá Tốt",
+    "badgeColor": "bg-slate-700",
+    "image": "/images/lap_2.jpg",
+    "features": [
+      "Khóa gas an toàn không lo mất gas khi tháo",
+      "Vận chuyển cẩn thận không trầy xước dàn nóng lạnh",
+      "Lắp lại căn chỉnh thẩm mỹ chuẩn phong thủy"
+    ],
+    "issues": [
+      "Chuyển nhà / chuyển mặt bằng kinh doanh tại Phú Quốc",
+      "Cần tháo máy lạnh đem đi bảo dưỡng đại trùng tu"
+    ]
+  },
+  {
+    "slug": "sua-tu-lanh",
+    "title": "Sửa tủ lạnh tận nhà tại Phú Quốc",
+    "shortTitle": "Sửa Tủ Lạnh",
+    "description": "Khắc phục triệt để các sự cố tủ lạnh không đông đá, chảy nước, đóng tuyết, bị xì gas hoặc kêu to. Phục vụ tận nhà cho hộ gia đình & nhà hàng.",
+    "priceFrom": "Từ 200.000đ",
+    "tag": "Tận Nhà 24/7",
+    "badgeColor": "bg-hvac-secondary",
+    "image": "/images/lap_3.jpg",
+    "features": [
+      "Thợ chuyên sửa tủ lạnh Side by Side, Inverter",
+      "Thay thế sò lạnh, rơ le xả đá, quạt dàn lạnh",
+      "Bảo hành chu đáo 6 - 12 tháng"
+    ],
+    "issues": [
+      "Tủ lạnh ngăn mát không lạnh, đồ ăn bị hư hỏng",
+      "Tủ lạnh không đông đá hoặc chạy liên tục không ngắt",
+      "Tủ lạnh bị chảy nước ra sàn nhà"
+    ]
+  },
+  {
+    "slug": "sua-may-giat",
+    "title": "Sửa máy giặt cửa trên & cửa ngang",
+    "shortTitle": "Sửa Máy Giặt",
+    "description": "Chuyên sửa máy giặt không vắt, không cấp nước, báo lỗi chớp đèn, bị rung lắc mạnh hoặc hỏng board mạch điều khiển.",
+    "priceFrom": "Từ 200.000đ",
+    "tag": "Nhanh Chóng",
+    "badgeColor": "bg-blue-600",
+    "image": "/images/lap_4.jpg",
+    "features": [
+      "Thay chốt cửa, van cấp nước, bơm xả chính hãng",
+      "Vệ sinh lồng giặt bằng máy xịt áp lực cao",
+      "Cung cấp linh kiện chính hãng LG, Toshiba, Electrolux"
+    ],
+    "issues": [
+      "Máy giặt không vắt khô clothes",
+      "Máy giặt kêu lạch cạch khi quay",
+      "Máy giặt bị tràn nước hoặc không xả nước"
+    ]
+  },
+  {
+    "slug": "dien-nuoc-dan-dung",
+    "title": "Sửa chữa điện nước & Máy lọc nước",
+    "shortTitle": "Điện Nước Dân Dụng",
+    "description": "Sửa chữa sự cố chập điện, nhảy aptomat, rò rỉ nước, lắp đặt máy lọc nước gia đình và hệ thống lọc nước công nghiệp tại Phú Quốc.",
+    "priceFrom": "Từ 150.000đ",
+    "tag": "Đa Năng",
+    "badgeColor": "bg-hvac-accent",
+    "image": "/images/may_loc_nuoc.jpg",
+    "features": [
+      "Xử lý chập điện âm tường khẩn cấp",
+      "Thay lõi lọc nước, sửa máy lọc nước Karofi, Kangaroo",
+      "Sửa máy bơm nước, bình nóng lạnh tận nhà"
+    ],
+    "issues": [
+      "Chập cháy aptomat gây mất điện toàn bộ nhà",
+      "Máy lọc nước chảy chậm hoặc có vị lạ",
+      "Rò rỉ đường ống nước sinh hoạt"
+    ]
+  }
+]

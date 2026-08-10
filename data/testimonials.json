@@ -1,0 +1,29 @@
+[
+  {
+    "id": "review-1",
+    "name": "Anh Nguyễn Văn Hoàng",
+    "role": "Quản lý Khách sạn Sunset Beach",
+    "location": "Dương Đông, Phú Quốc",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+    "rating": 5,
+    "comment": "Tôi rất hài lòng với thái độ phục vụ của Điện Lạnh Sơn Phát. Đội ngũ thợ đến đúng hẹn sau 20 phút gọi, vệ sinh 20 máy lạnh của khách sạn rất sạch sẽ và làm việc gọn gàng. Sẽ ký hợp đồng bảo trì dài hạn."
+  },
+  {
+    "id": "review-2",
+    "name": "Chị Lê Thị Thanh Thảo",
+    "role": "Chủ Homestay Bãi Trường",
+    "location": "Bãi Trường, Phú Quốc",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&auto=format&fit=crop",
+    "rating": 5,
+    "comment": "Máy lạnh phòng khách homestay bị chảy nước tràn tường giữa trưa hè. Gọi thợ Sơn Phát tầm 25 phút là thợ có mặt thông ống thoát nước liền. Báo giá công khai 150k rất dễ chịu và minh bạch!"
+  },
+  {
+    "id": "review-3",
+    "name": "Chú Trần Minh Trí",
+    "role": "Chủ Nhà hàng Hải Sản",
+    "location": "An Thới, Phú Quốc",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+    "rating": 5,
+    "comment": "Tủ đông chứa hải sản nhà hàng bất ngờ ngưng lạnh. Kỹ thuật viên Sơn Phát hỗ trợ cấp cứu lúc 8h tối nhiệt tình. Thay rơ le chính hãng và sạc gas lại chạy ngon lành. Cực kỳ uy tín!"
+  }
+]

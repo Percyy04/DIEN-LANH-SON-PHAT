@@ -1,0 +1,28 @@
+{
+  "brandName": "Cơ điện lạnh Sơn Phát",
+  "shortName": "ĐIỆN LẠNH SƠN PHÁT PHÚ QUỐC",
+  "tagline": "Dịch vụ sửa chữa, vệ sinh & lắp đặt điện lạnh chuyên nghiệp tại Phú Quốc",
+  "hotline": "0961 316 346",
+  "hotlineRaw": "0961316346",
+  "zalo": "https://zalo.me/0961316346",
+  "address": "Đường Cách Mạng Tháng 8, P. Dương Đông, TP. Phú Quốc, Kiên Giang",
+  "hours": "07:00 - 20:00 (Hỗ trợ cấp cứu 24/7)",
+  "email": "dienlanhsonphatphuquoc@gmail.com",
+  "facebook": "https://www.facebook.com/ienlanhthanhson.483076",
+  "serviceAreas": [
+    "Dương Đông",
+    "An Thới",
+    "Bãi Trường",
+    "Cửa Cạn",
+    "Gành Dầu",
+    "Hàm Ninh"
+  ],
+  "warranty": "Cam kết bảo hành dịch vụ 3 - 12 tháng sau sửa chữa",
+  "themeColor": "#0F4C81",
+  "stats": [
+    { "label": "Khách hàng tin dùng", "value": "500+" },
+    { "label": "Năm kinh nghiệm", "value": "5+" },
+    { "label": "Phạm vi phục vụ", "value": "Toàn Phú Quốc" },
+    { "label": "Thời gian có mặt", "value": "20 - 30 Phút" }
+  ]
+}

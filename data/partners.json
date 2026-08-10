@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Daikin",
+    "country": "Nhật Bản",
+    "category": "Máy Lạnh & Điều Hòa Trung Tâm",
+    "description": "Đối tác ủy quyền phân phối & bảo hành linh kiện chính hãng Daikin tại Phú Quốc"
+  },
+  {
+    "name": "Panasonic",
+    "country": "Nhật Bản",
+    "category": "Máy Lạnh & Lọc Không Khí",
+    "description": "Chuyên thi công lắp đặt các dòng Panasonic Nanoe-G & Inverter cao cấp"
+  },
+  {
+    "name": "Casper",
+    "country": "Thái Lan",
+    "category": "Điện Lạnh Gia Dụng",
+    "description": "Đơn vị cung cấp và bảo trì máy lạnh Casper dàn tản nhiệt mạ vàng chống muối biển"
+  },
+  {
+    "name": "LG",
+    "country": "Hàn Quốc",
+    "category": "Thiết Bị Điện Lạnh Inverter",
+    "description": "Tư vấn thi công hệ thống LG Dual Inverter tiết kiệm điện cho Villa & Resort"
+  },
+  {
+    "name": "Toshiba",
+    "country": "Nhật Bản",
+    "category": "Tủ Lạnh & Máy Lạnh",
+    "description": "Dịch vụ bảo trì và sửa chữa tủ lạnh, máy lạnh Toshiba Inverter chuyên nghiệp"
+  },
+  {
+    "name": "Mitsubishi Electric",
+    "country": "Nhật Bản",
+    "category": "Điều Hòa Không Khí",
+    "description": "Giải pháp làm lạnh bền bỉ, êm ái thích hợp môi trường ven biển"
+  },
+  {
+    "name": "Carrier",
+    "country": "Mỹ",
+    "category": "Hệ Thống Lạnh Thương Mại",
+    "description": "Bảo trì & thi công máy lạnh thương mại cho nhà hàng khách sạn tại Phú Quốc"
+  },
+  {
+    "name": "Funiki",
+    "country": "Việt Nam (Hòa Phát)",
+    "category": "Máy Lạnh & Tủ Đông",
+    "description": "Sản phẩm bền bỉ, giá rẻ, dịch vụ lắp đặt bảo hành chính hãng tận nơi"
+  }
+]

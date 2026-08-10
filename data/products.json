@@ -1,0 +1,78 @@
+[
+  {
+    "slug": "may-lanh-daikin-inverter-1hp-ftkf25xvmv",
+    "name": "Máy lạnh Daikin Inverter 1 HP FTKF25XVMV",
+    "brand": "Daikin",
+    "price": "Liên hệ có giá tốt nhất",
+    "image": "/images/may_lanh.jpg",
+    "capacity": "1 HP (Dưới 15m²)",
+    "inverter": true,
+    "origin": "Thái Lan",
+    "warranty": "Bảo hành 1 năm thân máy, 5 năm nén khí",
+    "specs": [
+      "Công suất làm lạnh: 1 HP - 9.200 BTU",
+      "Công nghệ tiết kiệm điện: Inverter",
+      "Lọc khí: Phin lọc Enzyme Blue + PM2.5",
+      "Dàn tản nhiệt: Ống dẫn gas bằng Đồng - Lá tản nhiệt bằng Nhôm chống ăn mòn",
+      "Loại Gas: R32"
+    ],
+    "description": "Máy lạnh Daikin 1HP FTKF25XVMV trang bị công nghệ Inverter giúp tiết kiệm điện năng tiêu thụ vượt trội. Phin lọc Enzyme Blue diệt khuẩn 99.9%, ngăn ngừa mùi hôi ẩm mốc thích hợp khí hậu biển Phú Quốc."
+  },
+  {
+    "slug": "may-lanh-panasonic-inverter-1-5hp-pu12xkh-8",
+    "name": "Máy lạnh Panasonic Inverter 1.5 HP CU/CS-PU12XKH-8",
+    "brand": "Panasonic",
+    "price": "Liên hệ có giá tốt nhất",
+    "image": "/images/may_lanh.jpg",
+    "capacity": "1.5 HP (15m² - 20m²)",
+    "inverter": true,
+    "origin": "Malaysia",
+    "warranty": "Bảo hành chính hãng 1 năm",
+    "specs": [
+      "Công suất làm lạnh: 1.5 HP - 11.900 BTU",
+      "Công nghệ tiết kiệm điện: Eco kết hợp AI & Inverter",
+      "Lọc không khí: Nanoe-G lọc bụi mịn PM2.5",
+      "Làm lạnh nhanh: Powerful mode",
+      "Loại Gas: R32"
+    ],
+    "description": "Dòng máy lạnh cao cấp đến từ Panasonic với khả năng làm lạnh cực nhanh Powerful, tích hợp công nghệ trí tuệ nhân tạo Eco A.I cân bằng giữa tiết kiệm điện và làm mát êm ái."
+  },
+  {
+    "slug": "may-lanh-casper-inverter-1hp-tc-09is35",
+    "name": "Máy lạnh Casper Inverter 1 HP TC-09IS35",
+    "brand": "Casper",
+    "price": "Liên hệ có giá tốt nhất",
+    "image": "/images/may_lanh.jpg",
+    "capacity": "1 HP (Dưới 15m²)",
+    "inverter": true,
+    "origin": "Thái Lan",
+    "warranty": "1 đổi 1 trong 2 năm, 3 năm máy, 12 năm lốc nén",
+    "specs": [
+      "Công suất làm lạnh: 1 HP - 9.000 BTU",
+      "Công nghệ tiết kiệm điện: i-Saving Inverter",
+      "Tự động làm sạch: iClean diệt khuẩn",
+      "Cảm biến nhiệt độ: iFeel tự điều chỉnh",
+      "Dàn tản nhiệt: Đồng mạ vàng bền bỉ"
+    ],
+    "description": "Dòng máy lạnh phân khúc giá mềm chất lượng cao, dàn tản nhiệt mạ vàng chống chọi muối biển Phú Quốc cực kỳ bền bỉ. Chế độ bảo hành siêu lâu lên tới 12 năm lốc nén."
+  },
+  {
+    "slug": "may-lanh-lg-inverter-2hp-v18win1",
+    "name": "Máy lạnh LG Inverter 2 HP V18WIN1",
+    "brand": "LG",
+    "price": "Liên hệ có giá tốt nhất",
+    "image": "/images/may_lanh.jpg",
+    "capacity": "2 HP (20m² - 30m²)",
+    "inverter": true,
+    "origin": "Thái Lan",
+    "warranty": "Bảo hành 2 năm máy, 10 năm lốc nén",
+    "specs": [
+      "Công suất làm lạnh: 2 HP - 18.000 BTU",
+      "Công nghệ tiết kiệm điện: Dual Inverter",
+      "Điều khiển thông minh: Wi-Fi ThinQ",
+      "Dàn tản nhiệt: Gold Fin chống ăn mòn cao",
+      "Loại Gas: R32"
+    ],
+    "description": "Máy lạnh công suất lớn 2HP phù hợp cho phòng khách, văn phòng, phòng nghỉ homestay lớn. Động cơ Dual Inverter giúp máy chạy êm ái, làm lạnh nhanh hơn 40%."
+  }
+]

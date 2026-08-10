@@ -1,0 +1,38 @@
+[
+  {
+    "id": "project-1",
+    "title": "Thi công lắp đặt hệ thống máy lạnh Villa Bãi Trường",
+    "category": "Lắp đặt máy lạnh",
+    "location": "Bãi Trường, Phú Quốc",
+    "image": "/images/lap_1.jpg",
+    "description": "Lắp đặt 12 bộ máy lạnh Daikin Inverter cho biệt thự nghỉ dưỡng cao cấp, thi công ống đồng âm tường chống ăn mòn muối biển.",
+    "completionDate": "Tháng 07/2026"
+  },
+  {
+    "id": "project-2",
+    "title": "Bảo trì vệ sinh trọn gói hệ thống máy lạnh Khách sạn Dương Đông",
+    "category": "Bảo trì định kỳ",
+    "location": "Phường Dương Đông, Phú Quốc",
+    "image": "/images/lap_2.jpg",
+    "description": "Bảo trì, sạc gas và khử khuẩn 45 máy lạnh treo tường & máy tủ đứng cho khách sạn phục vụ mùa du lịch.",
+    "completionDate": "Tháng 06/2026"
+  },
+  {
+    "id": "project-3",
+    "title": "Sửa chữa & Phục hồi hệ thống lạnh Nhà hàng Hải Sản Gành Dầu",
+    "category": "Sửa chữa kỹ thuật",
+    "location": "Gành Dầu, Phú Quốc",
+    "image": "/images/lap_3.jpg",
+    "description": "Xử lý triệt để sự cố xì gas kho đông bảo quản hải sản tươi sống, thay lốc nén mới chạy êm rét sâu.",
+    "completionDate": "Tháng 05/2026"
+  },
+  {
+    "id": "project-4",
+    "title": "Thi công tháo lắp & di dời máy lạnh Chuỗi Homestay An Thới",
+    "category": "Tháo lắp di dời",
+    "location": "Phường An Thới, Phú Quốc",
+    "image": "/images/lap_4.jpg",
+    "description": "Tháo dời 16 máy lạnh từ chi nhánh cũ và di dời lắp mới hút chân không chuẩn quy trình tại chi nhánh An Thới.",
+    "completionDate": "Tháng 05/2026"
+  }
+]

@@ -43,6 +43,7 @@ CREATE TABLE IF NOT EXISTS public.products (
   slug TEXT UNIQUE NOT NULL,
   name TEXT NOT NULL,
   brand TEXT NOT NULL,
+  category TEXT DEFAULT 'may-lanh',
   price TEXT NOT NULL,
   image TEXT NOT NULL,
   capacity TEXT NOT NULL,

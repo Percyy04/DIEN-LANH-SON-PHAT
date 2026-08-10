@@ -17,6 +17,11 @@
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
   }
+
+  select option {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+  }
 }
 
 ::selection {

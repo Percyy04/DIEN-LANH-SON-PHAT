@@ -3,76 +3,230 @@
     "slug": "may-lanh-daikin-inverter-1hp-ftkf25xvmv",
     "name": "Máy lạnh Daikin Inverter 1 HP FTKF25XVMV",
     "brand": "Daikin",
-    "price": "Liên hệ có giá tốt nhất",
-    "image": "/images/may_lanh.jpg",
+    "category": "may-lanh",
+    "price": "Liên hệ báo giá ưu đãi",
+    "image": "https://mawxzbmhilmwrwcknkcn.supabase.co/storage/v1/object/public/products/may_lanh_indoor.jpg",
     "capacity": "1 HP (Dưới 15m²)",
     "inverter": true,
     "origin": "Thái Lan",
-    "warranty": "Bảo hành 1 năm thân máy, 5 năm nén khí",
+    "warranty": "Bảo hành 1 năm thân máy, 5 năm lốc nén",
     "specs": [
       "Công suất làm lạnh: 1 HP - 9.200 BTU",
       "Công nghệ tiết kiệm điện: Inverter",
       "Lọc khí: Phin lọc Enzyme Blue + PM2.5",
-      "Dàn tản nhiệt: Ống dẫn gas bằng Đồng - Lá tản nhiệt bằng Nhôm chống ăn mòn",
+      "Dàn tản nhiệt: Lá nhôm chống ăn mòn muối biển",
       "Loại Gas: R32"
     ],
-    "description": "Máy lạnh Daikin 1HP FTKF25XVMV trang bị công nghệ Inverter giúp tiết kiệm điện năng tiêu thụ vượt trội. Phin lọc Enzyme Blue diệt khuẩn 99.9%, ngăn ngừa mùi hôi ẩm mốc thích hợp khí hậu biển Phú Quốc."
+    "description": "Máy lạnh Daikin 1HP Inverter cao cấp. Phin lọc Enzyme Blue diệt khuẩn 99.9%, chống ăn mòn muối biển Phú Quốc."
   },
   {
     "slug": "may-lanh-panasonic-inverter-1-5hp-pu12xkh-8",
     "name": "Máy lạnh Panasonic Inverter 1.5 HP CU/CS-PU12XKH-8",
     "brand": "Panasonic",
-    "price": "Liên hệ có giá tốt nhất",
-    "image": "/images/may_lanh.jpg",
+    "category": "may-lanh",
+    "price": "Liên hệ báo giá ưu đãi",
+    "image": "https://mawxzbmhilmwrwcknkcn.supabase.co/storage/v1/object/public/products/may_lanh_indoor.jpg",
     "capacity": "1.5 HP (15m² - 20m²)",
     "inverter": true,
     "origin": "Malaysia",
     "warranty": "Bảo hành chính hãng 1 năm",
     "specs": [
       "Công suất làm lạnh: 1.5 HP - 11.900 BTU",
-      "Công nghệ tiết kiệm điện: Eco kết hợp AI & Inverter",
+      "Công nghệ tiết kiệm điện: Eco A.I & Inverter",
       "Lọc không khí: Nanoe-G lọc bụi mịn PM2.5",
       "Làm lạnh nhanh: Powerful mode",
       "Loại Gas: R32"
     ],
-    "description": "Dòng máy lạnh cao cấp đến từ Panasonic với khả năng làm lạnh cực nhanh Powerful, tích hợp công nghệ trí tuệ nhân tạo Eco A.I cân bằng giữa tiết kiệm điện và làm mát êm ái."
+    "description": "Dòng máy lạnh cao cấp Panasonic làm lạnh cực nhanh Powerful, tích hợp trí tuệ nhân tạo Eco A.I tiết kiệm điện."
   },
   {
     "slug": "may-lanh-casper-inverter-1hp-tc-09is35",
     "name": "Máy lạnh Casper Inverter 1 HP TC-09IS35",
     "brand": "Casper",
-    "price": "Liên hệ có giá tốt nhất",
-    "image": "/images/may_lanh.jpg",
+    "category": "may-lanh",
+    "price": "Liên hệ báo giá ưu đãi",
+    "image": "https://mawxzbmhilmwrwcknkcn.supabase.co/storage/v1/object/public/products/may_lanh_indoor.jpg",
     "capacity": "1 HP (Dưới 15m²)",
     "inverter": true,
     "origin": "Thái Lan",
-    "warranty": "1 đổi 1 trong 2 năm, 3 năm máy, 12 năm lốc nén",
+    "warranty": "1 đổi 1 trong 2 năm, 12 năm lốc nén",
     "specs": [
       "Công suất làm lạnh: 1 HP - 9.000 BTU",
       "Công nghệ tiết kiệm điện: i-Saving Inverter",
-      "Tự động làm sạch: iClean diệt khuẩn",
-      "Cảm biến nhiệt độ: iFeel tự điều chỉnh",
+      "Tự động làm sạch: iClean",
       "Dàn tản nhiệt: Đồng mạ vàng bền bỉ"
     ],
-    "description": "Dòng máy lạnh phân khúc giá mềm chất lượng cao, dàn tản nhiệt mạ vàng chống chọi muối biển Phú Quốc cực kỳ bền bỉ. Chế độ bảo hành siêu lâu lên tới 12 năm lốc nén."
+    "description": "Máy lạnh Casper dàn tản nhiệt mạ vàng siêu bền, chống chọi thời tiết biển Phú Quốc cực kỳ hiệu quả."
   },
   {
-    "slug": "may-lanh-lg-inverter-2hp-v18win1",
-    "name": "Máy lạnh LG Inverter 2 HP V18WIN1",
-    "brand": "LG",
-    "price": "Liên hệ có giá tốt nhất",
-    "image": "/images/may_lanh.jpg",
-    "capacity": "2 HP (20m² - 30m²)",
+    "slug": "tu-lanh-panasonic-inverter-322l",
+    "name": "Tủ lạnh Panasonic Inverter 322 lít NR-BC361VGMV",
+    "brand": "Panasonic",
+    "category": "tu-lanh",
+    "price": "Liên hệ báo giá ưu đãi",
+    "image": "https://mawxzbmhilmwrwcknkcn.supabase.co/storage/v1/object/public/products/tu%20lanh/panasonic.jpg",
+    "capacity": "322 Lít (3 - 4 người)",
+    "inverter": true,
+    "origin": "Việt Nam",
+    "warranty": "Bảo hành chính hãng 2 năm",
+    "specs": [
+      "Dung tích sử dụng: 322 lít (Ngăn đá dưới)",
+      "Ngăn đông mềm Prime Fresh+ giữ thịt cá tươi 7 ngày",
+      "Công nghệ kháng khuẩn Ag Clean tinh thể bạc",
+      "Cảm biến Econavi tiết kiệm điện thông minh"
+    ],
+    "description": "Tủ lạnh Panasonic ngăn đá dưới trang bị ngăn đông mềm Prime Fresh+ giữ thực phẩm tươi ngon suốt 7 ngày không cần rã đông."
+  },
+  {
+    "slug": "tu-lanh-toshiba-inverter-180l",
+    "name": "Tủ lạnh Toshiba Inverter 180 lít GR-RT252WE-PMV(52)",
+    "brand": "Toshiba",
+    "category": "tu-lanh",
+    "price": "Liên hệ báo giá ưu đãi",
+    "image": "https://mawxzbmhilmwrwcknkcn.supabase.co/storage/v1/object/public/products/tu%20lanh/toshiba.jpg",
+    "capacity": "180 Lít (2 - 3 người)",
     "inverter": true,
     "origin": "Thái Lan",
-    "warranty": "Bảo hành 2 năm máy, 10 năm lốc nén",
+    "warranty": "Bảo hành chính hãng 2 năm",
     "specs": [
-      "Công suất làm lạnh: 2 HP - 18.000 BTU",
-      "Công nghệ tiết kiệm điện: Dual Inverter",
-      "Điều khiển thông minh: Wi-Fi ThinQ",
-      "Dàn tản nhiệt: Gold Fin chống ăn mòn cao",
-      "Loại Gas: R32"
+      "Dung tích sử dụng: 180 lít",
+      "Công nghệ Origin Inverter tiết kiệm điện tối đa",
+      "Khử mùi diệt khuẩn Ag+ Bio",
+      "Ngăn rau quả Origin Fresh cân bằng độ ẩm"
     ],
-    "description": "Máy lạnh công suất lớn 2HP phù hợp cho phòng khách, văn phòng, phòng nghỉ homestay lớn. Động cơ Dual Inverter giúp máy chạy êm ái, làm lạnh nhanh hơn 40%."
+    "description": "Tủ lạnh Toshiba gọn gàng phù hợp phòng trọ, homestay, gia đình nhỏ tại Phú Quốc. Vận hành êm ái, tiết kiệm điện."
+  },
+  {
+    "slug": "tu-lanh-aqua-side-by-side-516l",
+    "name": "Tủ lạnh Aqua Inverter 516 lít Side By Side AQR-IG525AM(GB)",
+    "brand": "Aqua",
+    "category": "tu-lanh",
+    "price": "Liên hệ báo giá ưu đãi",
+    "image": "https://mawxzbmhilmwrwcknkcn.supabase.co/storage/v1/object/public/products/tu%20lanh/tu%20lanh.jpg",
+    "capacity": "516 Lít (Trên 5 người)",
+    "inverter": true,
+    "origin": "Trung Quốc",
+    "warranty": "Bảo hành chính hãng 2 năm",
+    "specs": [
+      "Dung tích sử dụng: 516 lít (Mặt kính đen sang trọng)",
+      "Công nghệ Twin Inverter siêu tiết kiệm điện",
+      "Kháng khuẩn khử mùi H-DEO Fresh",
+      "Luồng khí lạnh đa chiều 360 độ"
+    ],
+    "description": "Tủ lạnh Side By Side Aqua 4 cửa mặt kính đen sang trọng cho căn hộ, biệt thự và nhà hàng Phú Quốc."
+  },
+  {
+    "slug": "may-giat-lg-inverter-9kg-fb1209s6w",
+    "name": "Máy giặt LG Inverter 9 kg FB1209S6W (Cửa ngang)",
+    "brand": "LG",
+    "category": "may-giat",
+    "price": "Liên hệ báo giá ưu đãi",
+    "image": "https://mawxzbmhilmwrwcknkcn.supabase.co/storage/v1/object/public/products/may%20giac/LG.jpg",
+    "capacity": "Khối lượng giặt 9kg",
+    "inverter": true,
+    "origin": "Thái Lan",
+    "warranty": "Bảo hành 2 năm máy, 10 năm động cơ",
+    "specs": [
+      "Khối lượng giặt: 9.0 kg",
+      "Động cơ: Truyền động trực tiếp Intello DD",
+      "Giặt hơi nước Steam diệt khuẩn 99.9%",
+      "Công nghệ giặt: 6 Motion DD mô phỏng giặt tay"
+    ],
+    "description": "Máy giặt cửa ngang LG động cơ truyền động trực tiếp êm ái, giặt sạch sâu và bảo vệ sợi vải."
+  },
+  {
+    "slug": "may-giat-samsung-inverter-9-5kg",
+    "name": "Máy giặt Samsung Inverter 9.5 kg WW95TA046AX/SV",
+    "brand": "Samsung",
+    "category": "may-giat",
+    "price": "Liên hệ báo giá ưu đãi",
+    "image": "https://mawxzbmhilmwrwcknkcn.supabase.co/storage/v1/object/public/products/may%20giac/samsung.jpg",
+    "capacity": "Khối lượng giặt 9.5kg",
+    "inverter": true,
+    "origin": "Việt Nam",
+    "warranty": "Bảo hành chính hãng 2 năm",
+    "specs": [
+      "Bong bóng siêu mịn EcoBubble thẩm thấu nhanh gấp 40 lần",
+      "Giặt hơi nước Hygiene Steam diệt 99.9% vi khuẩn",
+      "Động cơ Digital Inverter vận hành bền bỉ",
+      "Chế độ tự làm sạch lồng giặt Drum Clean"
+    ],
+    "description": "Máy giặt Samsung công nghệ bong bóng siêu mịn EcoBubble giặt sạch vết bẩn cứng đầu hiệu quả."
+  },
+  {
+    "slug": "may-giat-toshiba-8-5kg-cua-tren",
+    "name": "Máy giặt Toshiba 8.5 kg AW-K900DV(WW)",
+    "brand": "Toshiba",
+    "category": "may-giat",
+    "price": "Liên hệ báo giá ưu đãi",
+    "image": "https://mawxzbmhilmwrwcknkcn.supabase.co/storage/v1/object/public/products/may%20giac/toshiba.jpg",
+    "capacity": "Khối lượng giặt 8.5kg",
+    "inverter": false,
+    "origin": "Thái Lan",
+    "warranty": "Bảo hành chính hãng 2 năm",
+    "specs": [
+      "Khối lượng giặt: 8.5 kg (Cửa trên)",
+      "Lồng giặt Star Crystal Drum bảo vệ quần áo",
+      "Mâm giặt Mega Power tạo luồng nước xoáy mạnh",
+      "Tính năng tự vệ sinh lồng giặt I-Clean"
+    ],
+    "description": "Máy giặt cửa trên Toshiba bền bỉ, dễ sử dụng, thiết kế sang trọng phù hợp hộ gia đình và homestay."
+  },
+  {
+    "slug": "may-loc-nuoc-karofi-kaq-x16",
+    "name": "Máy lọc nước Karofi KAQ-X16 (10 Lõi RO)",
+    "brand": "Karofi",
+    "category": "may-loc-nuoc",
+    "price": "Liên hệ báo giá ưu đãi",
+    "image": "https://mawxzbmhilmwrwcknkcn.supabase.co/storage/v1/object/public/products/may%20loc%20nuoc/May-loc-nuoc-karofi-KAQ-X16-1.webp",
+    "capacity": "Công suất lọc 20 lít/giờ",
+    "inverter": false,
+    "origin": "Việt Nam",
+    "warranty": "Bảo hành 36 tháng chính hãng",
+    "specs": [
+      "Hệ thống 10 lõi lọc SMAX gấp đôi hiệu năng",
+      "Màng lọc RO Purifim Mỹ lọc sạch 99.99% kim loại nặng",
+      "Bổ sung khoáng chất Hydrogen tươi chống lão hóa",
+      "Tủ đứng tràn viền kính cường lực hiện đại"
+    ],
+    "description": "Máy lọc nước Karofi KAQ-X16 thiết kế tủ đứng tràn viền sang trọng, cho nguồn nước uống trực tiếp tinh khiết chuẩn Bộ Y Tế."
+  },
+  {
+    "slug": "may-loc-nuoc-nong-lanh-karofi-kaq-d36s",
+    "name": "Máy lọc nước Nóng Lạnh Karofi KAQ-D36S",
+    "brand": "Karofi",
+    "category": "may-loc-nuoc",
+    "price": "Liên hệ báo giá ưu đãi",
+    "image": "https://mawxzbmhilmwrwcknkcn.supabase.co/storage/v1/object/public/products/may%20loc%20nuoc/may-loc-nuoc-karofi-kaq-d36s-1.png",
+    "capacity": "Công suất lọc 20L/h - 3 Chế độ Nóng / Lạnh / Nguội",
+    "inverter": false,
+    "origin": "Việt Nam",
+    "warranty": "Bảo hành 36 tháng chính hãng",
+    "specs": [
+      "3 chế độ nước: Nóng (85-95°C) - Lạnh (8-10°C) - Tinh khiết",
+      "Công nghệ làm lạnh Block cực nhanh và sâu",
+      "Công nghệ VoiceSmart cảnh báo thông minh",
+      "Tiết kiệm 30% điện năng tiêu thụ"
+    ],
+    "description": "Máy lọc nước Nóng Lạnh Karofi KAQ-D36S làm lạnh sâu bằng Block, pha trà cà phê tiện lợi cho gia đình và văn phòng."
+  },
+  {
+    "slug": "may-loc-nuoc-karofi-n-e118",
+    "name": "Máy lọc nước Tiêu chuẩn Karofi N-E118 (10 Lõi)",
+    "brand": "Karofi",
+    "category": "may-loc-nuoc",
+    "price": "Liên hệ báo giá ưu đãi",
+    "image": "https://mawxzbmhilmwrwcknkcn.supabase.co/storage/v1/object/public/products/may%20loc%20nuoc/may-loc-nuoc-tieu-chuan-karofi-n-e118.jpg",
+    "capacity": "Công suất lọc 10 lít/giờ",
+    "inverter": false,
+    "origin": "Việt Nam",
+    "warranty": "Bảo hành 24 tháng chính hãng",
+    "specs": [
+      "Màng lọc RO Filmtec nhập khẩu Mỹ",
+      "10 lõi lọc chức năng bổ sung vi khoáng",
+      "Lọc sạch tạp chất, hóa chất, clo dư trong nước",
+      "Nước uống trực tiếp không cần nấu sôi"
+    ],
+    "description": "Máy lọc nước tiêu chuẩn Karofi N-E118 mang lại nguồn nước tinh khiết ngọt mát cho gia đình tại Phú Quốc."
   }
 ]

@@ -109,6 +109,7 @@ async function syncData() {
       slug: prod.slug,
       name: prod.name,
       brand: prod.brand,
+      category: prod.category || 'may-lanh',
       price: prod.price,
       image: prod.image,
       capacity: prod.capacity,
@@ -118,7 +119,12 @@ async function syncData() {
       specs: prod.specs || [],
       description: prod.description,
     };
-    const { error } = await supabase.from('products').upsert(payload, { onConflict: 'slug' });
+    let { error } = await supabase.from('products').upsert(payload, { onConflict: 'slug' });
+    if (error && error.message.includes('category')) {
+      delete payload.category;
+      const res = await supabase.from('products').upsert(payload, { onConflict: 'slug' });
+      error = res.error;
+    }
     if (error) console.error(`  ❌ Failed product ${prod.slug}:`, error.message);
     else console.log(`  ✓ Synced product: ${prod.slug}`);
   }

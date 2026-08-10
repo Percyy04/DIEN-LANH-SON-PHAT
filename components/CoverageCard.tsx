@@ -23,9 +23,9 @@ export default function CoverageCard({ areaName, responseTime = "15 - 20 Phút" 
       </div>
 
       <div className="space-y-1">
-        <h3 className="text-base font-extrabold text-hvac-navy group-hover:text-hvac-primary transition-colors">
+        <div className="text-base font-extrabold text-hvac-navy group-hover:text-hvac-primary transition-colors">
           Khu vực {areaName}
-        </h3>
+        </div>
         <p className="text-xs text-slate-500">
           Đội KTV túc trực sẵn sàng hỗ trợ sửa chữa & bảo trì tận nơi.
         </p>

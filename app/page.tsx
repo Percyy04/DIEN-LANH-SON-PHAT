@@ -33,6 +33,7 @@ import BlogCard from '@/components/BlogCard';
 import ContactForm from '@/components/ContactForm';
 import MapSection from '@/components/MapSection';
 import PartnersSection from '@/components/PartnersSection';
+import BannerSlider from '@/components/BannerSlider';
 
 export const revalidate = 60;
 
@@ -121,8 +122,8 @@ export default async function HomePage() {
             </div>
 
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">
-              Dịch vụ điện lạnh chuyên nghiệp{' '}
-              <span className="text-amber-400 underline decoration-hvac-secondary decoration-4">tại Phú Quốc</span>
+              Sửa Máy Lạnh, Điện Lạnh Chuyên Nghiệp{' '}
+              <span className="text-amber-400 underline decoration-hvac-secondary decoration-4">Tại Phú Quốc</span>
             </h1>
 
             <p className="text-slate-200 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
@@ -174,6 +175,17 @@ export default async function HomePage() {
             />
           </div>
         </div>
+      </section>
+
+      {/* PROMOTIONAL BANNER SLIDER SECTION */}
+      <section className="max-w-7xl mx-auto px-4 -mt-8 relative z-20">
+        <BannerSlider
+          banners={[
+            '/images/banner.png',
+            '/images/banner1.jpg',
+            '/images/banner2.jpg',
+          ]}
+        />
       </section>
 
       {/* 2. FEATURED SERVICES (Toàn Cầu Cook Showcase Style) */}

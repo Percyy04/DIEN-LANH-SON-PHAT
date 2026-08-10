@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { getServices, getProducts, getPosts } from '@/lib/data';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://dienlanhsonphatphuquoc.com';
+  const baseUrl = 'https://www.dienlanhsonphat.io.vn';
 
   const services = getServices();
   const products = getProducts();

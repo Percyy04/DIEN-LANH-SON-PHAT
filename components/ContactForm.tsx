@@ -157,7 +157,7 @@ export default function ContactForm({
               placeholder="VD: Anh Minh"
               value={formData.fullName}
               onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
-              className="w-full px-3.5 py-2.5 rounded-2xl border border-slate-300 focus:border-hvac-primary focus:ring-2 focus:ring-hvac-primary/20 text-sm outline-none transition-all"
+              className="w-full px-3.5 py-2.5 rounded-2xl border border-slate-300 focus:border-hvac-primary focus:ring-2 focus:ring-hvac-primary/20 text-sm outline-none transition-all text-slate-900 bg-white"
             />
           </div>
 
@@ -169,7 +169,7 @@ export default function ContactForm({
               placeholder="VD: 0961 316 346"
               value={formData.phone}
               onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-              className="w-full px-3.5 py-2.5 rounded-2xl border border-slate-300 focus:border-hvac-primary focus:ring-2 focus:ring-hvac-primary/20 text-sm outline-none transition-all"
+              className="w-full px-3.5 py-2.5 rounded-2xl border border-slate-300 focus:border-hvac-primary focus:ring-2 focus:ring-hvac-primary/20 text-sm outline-none transition-all text-slate-900 bg-white"
             />
           </div>
         </div>
@@ -180,10 +180,10 @@ export default function ContactForm({
             <select
               value={formData.service}
               onChange={(e) => setFormData({ ...formData, service: e.target.value })}
-              className="w-full px-3.5 py-2.5 rounded-2xl border border-slate-300 focus:border-hvac-primary focus:ring-2 focus:ring-hvac-primary/20 text-sm outline-none transition-all bg-white font-medium"
+              className="w-full px-3.5 py-2.5 rounded-2xl border border-slate-300 focus:border-hvac-primary focus:ring-2 focus:ring-hvac-primary/20 text-sm outline-none transition-all bg-white text-slate-900 font-medium cursor-pointer"
             >
               {services.map((item) => (
-                <option key={item.slug} value={item.title}>
+                <option key={item.slug} value={item.title} className="bg-white text-slate-900 font-medium py-1">
                   {item.title}
                 </option>
               ))}
@@ -195,11 +195,11 @@ export default function ContactForm({
             <select
               value={formData.preferredTime}
               onChange={(e) => setFormData({ ...formData, preferredTime: e.target.value })}
-              className="w-full px-3.5 py-2.5 rounded-2xl border border-slate-300 focus:border-hvac-primary focus:ring-2 focus:ring-hvac-primary/20 text-sm outline-none transition-all bg-white font-medium"
+              className="w-full px-3.5 py-2.5 rounded-2xl border border-slate-300 focus:border-hvac-primary focus:ring-2 focus:ring-hvac-primary/20 text-sm outline-none transition-all bg-white text-slate-900 font-medium cursor-pointer"
             >
-              <option value="Càng sớm càng tốt (Trong 30 phút)">Càng sớm càng tốt (Trong 30 phút)</option>
-              <option value="Hôm nay (Buổi sáng 7h - 12h)">Hôm nay (Buổi sáng 7h - 12h)</option>
-              <option value="Hôm nay (Buổi chiều 13h - 17h)">Hôm nay (Buổi chiều 13h - 17h)</option>
+              <option value="Càng sớm càng tốt (Trong 30 phút)" className="bg-white text-slate-900 font-medium py-1">Càng sớm càng tốt (Trong 30 phút)</option>
+              <option value="Hôm nay (Buổi sáng 7h - 12h)" className="bg-white text-slate-900 font-medium py-1">Hôm nay (Buổi sáng 7h - 12h)</option>
+              <option value="Hôm nay (Buổi chiều 13h - 17h)" className="bg-white text-slate-900 font-medium py-1">Hôm nay (Buổi chiều 13h - 17h)</option>
             </select>
           </div>
         </div>
@@ -212,7 +212,7 @@ export default function ContactForm({
             placeholder="VD: CMT8, Dương Đông (hoặc tên Resort / Homestay)"
             value={formData.address}
             onChange={(e) => setFormData({ ...formData, address: e.target.value })}
-            className="w-full px-3.5 py-2.5 rounded-2xl border border-slate-300 focus:border-hvac-primary focus:ring-2 focus:ring-hvac-primary/20 text-sm outline-none transition-all"
+            className="w-full px-3.5 py-2.5 rounded-2xl border border-slate-300 focus:border-hvac-primary focus:ring-2 focus:ring-hvac-primary/20 text-sm outline-none transition-all text-slate-900 bg-white"
           />
         </div>
 
@@ -223,7 +223,7 @@ export default function ContactForm({
             placeholder="VD: Máy lạnh chảy nước, hoặc bật 16 độ không mát..."
             value={formData.message}
             onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-            className="w-full px-3.5 py-2.5 rounded-2xl border border-slate-300 focus:border-hvac-primary focus:ring-2 focus:ring-hvac-primary/20 text-sm outline-none transition-all"
+            className="w-full px-3.5 py-2.5 rounded-2xl border border-slate-300 focus:border-hvac-primary focus:ring-2 focus:ring-hvac-primary/20 text-sm outline-none transition-all text-slate-900 bg-white"
           />
         </div>
 

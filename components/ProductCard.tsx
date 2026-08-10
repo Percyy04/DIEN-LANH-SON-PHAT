@@ -34,9 +34,9 @@ export default function ProductCard({ product }: Props) {
       <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
         <div className="space-y-2">
           <span className="text-xs font-semibold text-brand-500">{product.capacity}</span>
-          <h3 className="text-base font-bold text-slate-900 group-hover:text-brand-500 transition-colors line-clamp-2 leading-snug">
+          <div className="text-base font-bold text-slate-900 group-hover:text-brand-500 transition-colors line-clamp-2 leading-snug">
             {product.name}
-          </h3>
+          </div>
         </div>
 
         <div className="space-y-1 text-xs text-slate-500">
@@ -52,7 +52,7 @@ export default function ProductCard({ product }: Props) {
             href={`/san-pham/${product.slug}`}
             className="py-2 px-3 text-center rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition-colors"
           >
-            Thông số
+            Chi tiết sản phẩm
           </Link>
           <a
             href={`tel:${config.hotlineRaw}`}

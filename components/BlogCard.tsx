@@ -35,11 +35,11 @@ export default function BlogCard({ post }: Props) {
             </span>
           </div>
 
-          <h3 className="text-base font-extrabold text-hvac-navy group-hover:text-hvac-primary transition-colors line-clamp-2 leading-snug">
+          <div className="text-base font-extrabold text-hvac-navy group-hover:text-hvac-primary transition-colors line-clamp-2 leading-snug">
             <Link href={`/blog/${post.slug}`}>
               {post.title}
             </Link>
-          </h3>
+          </div>
 
           <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed">
             {post.excerpt}
@@ -51,7 +51,7 @@ export default function BlogCard({ post }: Props) {
             href={`/blog/${post.slug}`}
             className="inline-flex items-center gap-1.5 text-xs font-extrabold text-hvac-primary hover:text-hvac-secondary transition-colors"
           >
-            <span>Đọc chi tiết</span>
+            <span>Đọc bài viết</span>
             <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform text-hvac-secondary" />
           </Link>
         </div>

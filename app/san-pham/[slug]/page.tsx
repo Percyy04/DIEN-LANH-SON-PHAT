@@ -43,8 +43,36 @@ export default async function ProductDetailPage({ params }: Props) {
     notFound();
   }
 
+  const productJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name,
+    image: product.image.startsWith('http') ? product.image : `https://www.dienlanhsonphat.io.vn${product.image}`,
+    description: product.description,
+    brand: {
+      '@type': 'Brand',
+      name: product.brand,
+    },
+    offers: {
+      '@type': 'Offer',
+      url: `https://www.dienlanhsonphat.io.vn/san-pham/${product.slug}`,
+      priceCurrency: 'VND',
+      price: product.price.replace(/[^0-9]/g, '') || '0',
+      itemCondition: 'https://schema.org/NewCondition',
+      availability: 'https://schema.org/InStock',
+      seller: {
+        '@type': 'Organization',
+        name: 'Cơ Điện Lạnh Sơn Phát Phú Quốc',
+      },
+    },
+  };
+
   return (
     <div className="py-10 space-y-12 max-w-7xl mx-auto px-4">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
+      />
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-xs text-slate-500 font-bold uppercase tracking-wider">
         <Link href="/" className="hover:underline">Trang chủ</Link>

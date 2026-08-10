@@ -48,9 +48,9 @@ export default function ServiceCard({ service }: ServiceCardProps) {
       <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
         <div className="space-y-2.5">
           <Link href={`/dich-vu/${service.slug}`}>
-            <h3 className="text-lg font-extrabold text-hvac-navy group-hover:text-hvac-primary transition-colors line-clamp-1">
+            <div className="text-lg font-extrabold text-hvac-navy group-hover:text-hvac-primary transition-colors line-clamp-1">
               {service.title}
-            </h3>
+            </div>
           </Link>
           <p className="text-xs text-slate-600 leading-relaxed line-clamp-2">
             {service.description}
@@ -80,7 +80,7 @@ export default function ServiceCard({ service }: ServiceCardProps) {
             href={`/dich-vu/${service.slug}`}
             className="py-2.5 px-3 rounded-xl bg-slate-100 hover:bg-hvac-primary hover:text-white text-slate-700 font-bold text-xs flex items-center justify-center gap-1 transition-all"
           >
-            <span>Chi tiết</span>
+            <span>Xem dịch vụ</span>
             <ChevronRight className="w-3.5 h-3.5" />
           </Link>
         </div>

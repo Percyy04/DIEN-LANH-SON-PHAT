@@ -44,6 +44,7 @@ export interface ProductItem {
   slug: string;
   name: string;
   brand: string;
+  category?: string;
   price: string;
   image: string;
   capacity: string;
@@ -292,7 +293,15 @@ export async function fetchProductsFromSupabase(): Promise<ProductItem[]> {
       return getProducts();
     }
 
-    return data as ProductItem[];
+    return data.map((item: any) => ({
+      ...item,
+      category: item.category || (
+        item.slug.startsWith('tu-lanh') ? 'tu-lanh' :
+        item.slug.startsWith('may-giat') ? 'may-giat' :
+        item.slug.startsWith('may-loc-nuoc') ? 'may-loc-nuoc' :
+        'may-lanh'
+      )
+    })) as ProductItem[];
   } catch (err) {
     console.error('Error fetching products from Supabase:', err);
     return getProducts();

@@ -2,20 +2,19 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Phone, Clock, MapPin, Menu, X, Snowflake, MessageCircle, ChevronRight, Wrench } from 'lucide-react';
+import { Phone, Clock, MapPin, Menu, X, MessageCircle, ChevronRight, ChevronDown } from 'lucide-react';
 import { getSiteConfig } from '@/lib/data';
 
 export default function Header() {
   const config = getSiteConfig();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
 
-  const navLinks = [
-    { name: 'Trang chủ', href: '/' },
-    { name: 'Dịch vụ HVAC', href: '/dich-vu' },
-    { name: 'Sản phẩm máy lạnh', href: '/san-pham' },
-    { name: 'Góc tư vấn', href: '/blog' },
-    { name: 'Giới thiệu', href: '/gioi-thieu' },
-    { name: 'Liên hệ', href: '/lien-he' },
+  const productCategories = [
+    { name: 'Máy lạnh chính hãng', href: '/san-pham?category=may-lanh', desc: 'Daikin, Panasonic, LG, Casper...' },
+    { name: 'Tủ lạnh Inverter', href: '/san-pham?category=tu-lanh', desc: 'Tủ lạnh 180L - 322L Side by Side' },
+    { name: 'Máy giặt cao cấp', href: '/san-pham?category=may-giat', desc: 'Máy giặt cửa ngang & cửa trên' },
+    { name: 'Máy lọc nước RO', href: '/san-pham?category=may-loc-nuoc', desc: 'Lọc nước tinh khiết Karofi' },
   ];
 
   return (
@@ -75,16 +74,81 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-7">
-            {navLinks.map((link) => (
+            <Link
+              href="/"
+              className="text-sm font-bold text-slate-700 hover:text-hvac-primary transition-colors py-1 relative group"
+            >
+              Trang chủ
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-hvac-secondary transition-all duration-300 group-hover:w-full" />
+            </Link>
+
+            <Link
+              href="/dich-vu"
+              className="text-sm font-bold text-slate-700 hover:text-hvac-primary transition-colors py-1 relative group"
+            >
+              Dịch vụ
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-hvac-secondary transition-all duration-300 group-hover:w-full" />
+            </Link>
+
+            {/* Dropdown Menu for Sản phẩm */}
+            <div className="relative group py-1">
               <Link
-                key={link.href}
-                href={link.href}
-                className="text-sm font-bold text-slate-700 hover:text-hvac-primary transition-colors py-1 relative group"
+                href="/san-pham"
+                className="text-sm font-bold text-slate-700 hover:text-hvac-primary transition-colors flex items-center gap-1 py-1"
               >
-                {link.name}
+                <span>Sản phẩm</span>
+                <ChevronDown className="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-hvac-secondary transition-all duration-300 group-hover:w-full" />
               </Link>
-            ))}
+
+              {/* Dropdown Menu Container */}
+              <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-2xl shadow-2xl border border-slate-100 p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 animate-in fade-in slide-in-from-top-2">
+                {productCategories.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className="block px-3.5 py-2.5 rounded-xl hover:bg-slate-50 transition-colors group/item"
+                  >
+                    <div className="text-xs font-extrabold text-slate-800 group-hover/item:text-hvac-primary transition-colors">
+                      {item.name}
+                    </div>
+                    <div className="text-[11px] text-slate-500 font-medium">{item.desc}</div>
+                  </Link>
+                ))}
+                <div className="pt-1.5 border-t border-slate-100 mt-1">
+                  <Link
+                    href="/san-pham"
+                    className="block text-center py-2 text-xs font-extrabold text-hvac-secondary hover:underline"
+                  >
+                    Xem tất cả sản phẩm →
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <Link
+              href="/blog"
+              className="text-sm font-bold text-slate-700 hover:text-hvac-primary transition-colors py-1 relative group"
+            >
+              Góc tư vấn
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-hvac-secondary transition-all duration-300 group-hover:w-full" />
+            </Link>
+
+            <Link
+              href="/gioi-thieu"
+              className="text-sm font-bold text-slate-700 hover:text-hvac-primary transition-colors py-1 relative group"
+            >
+              Giới thiệu
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-hvac-secondary transition-all duration-300 group-hover:w-full" />
+            </Link>
+
+            <Link
+              href="/lien-he"
+              className="text-sm font-bold text-slate-700 hover:text-hvac-primary transition-colors py-1 relative group"
+            >
+              Liên hệ
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-hvac-secondary transition-all duration-300 group-hover:w-full" />
+            </Link>
           </nav>
 
           {/* Header Action CTA */}
@@ -113,17 +177,84 @@ export default function Header() {
       {mobileMenuOpen && (
         <div className="lg:hidden fixed inset-x-0 top-[108px] bg-white border-b border-slate-200 shadow-2xl z-50 animate-in slide-in-from-top duration-200">
           <div className="px-4 pt-3 pb-6 space-y-3">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setMobileMenuOpen(false)}
-                className="flex items-center justify-between p-3 rounded-2xl text-slate-800 hover:bg-slate-100 font-bold transition-colors"
+            <Link
+              href="/"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center justify-between p-3 rounded-2xl text-slate-800 hover:bg-slate-100 font-bold transition-colors"
+            >
+              <span>Trang chủ</span>
+              <ChevronRight className="w-4 h-4 text-slate-400" />
+            </Link>
+
+            <Link
+              href="/dich-vu"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center justify-between p-3 rounded-2xl text-slate-800 hover:bg-slate-100 font-bold transition-colors"
+            >
+              <span>Dịch vụ</span>
+              <ChevronRight className="w-4 h-4 text-slate-400" />
+            </Link>
+
+            {/* Mobile Expandable Products */}
+            <div className="space-y-1">
+              <button
+                onClick={() => setMobileProductsOpen(!mobileProductsOpen)}
+                className="w-full flex items-center justify-between p-3 rounded-2xl text-slate-800 hover:bg-slate-100 font-bold transition-colors"
               >
-                <span>{link.name}</span>
-                <ChevronRight className="w-4 h-4 text-slate-400" />
-              </Link>
-            ))}
+                <span>Sản phẩm</span>
+                <ChevronDown className={`w-4 h-4 text-slate-400 transition-transform ${mobileProductsOpen ? 'rotate-180' : ''}`} />
+              </button>
+
+              {mobileProductsOpen && (
+                <div className="pl-4 space-y-1.5 border-l-2 border-slate-200 ml-3">
+                  {productCategories.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="block p-2.5 rounded-xl text-xs font-extrabold text-slate-700 hover:bg-slate-100"
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                  <Link
+                    href="/san-pham"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="block p-2.5 rounded-xl text-xs font-black text-hvac-secondary hover:bg-slate-100"
+                  >
+                    Xem tất cả sản phẩm →
+                  </Link>
+                </div>
+              )}
+            </div>
+
+            <Link
+              href="/blog"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center justify-between p-3 rounded-2xl text-slate-800 hover:bg-slate-100 font-bold transition-colors"
+            >
+              <span>Góc tư vấn</span>
+              <ChevronRight className="w-4 h-4 text-slate-400" />
+            </Link>
+
+            <Link
+              href="/gioi-thieu"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center justify-between p-3 rounded-2xl text-slate-800 hover:bg-slate-100 font-bold transition-colors"
+            >
+              <span>Giới thiệu</span>
+              <ChevronRight className="w-4 h-4 text-slate-400" />
+            </Link>
+
+            <Link
+              href="/lien-he"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center justify-between p-3 rounded-2xl text-slate-800 hover:bg-slate-100 font-bold transition-colors"
+            >
+              <span>Liên hệ</span>
+              <ChevronRight className="w-4 h-4 text-slate-400" />
+            </Link>
+
             <div className="pt-3 border-t border-slate-100 flex flex-col gap-2.5">
               <a
                 href={`tel:${config.hotlineRaw}`}

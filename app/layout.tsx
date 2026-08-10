@@ -15,20 +15,23 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://dien-lanh-son-phat.vercel.app'),
+  metadataBase: new URL('https://www.dienlanhsonphat.io.vn'),
   title: {
-    default: `${config.brandName} - Sửa Máy Lạnh Tận Nơi Tại Phú Quốc | Hotline ${config.hotline}`,
-    template: `%s | ${config.brandName}`,
+    default: 'Sửa Máy Lạnh Phú Quốc | Điện Lạnh Sơn Phát',
+    template: `%s | Điện Lạnh Sơn Phát`,
   },
-  description: `${config.tagline}. Phục vụ nhanh sau 20 phút tại Dương Đông, Bãi Trường, An Thới. Thợ giỏi, báo giá công khai, bảo hành 3-12 tháng.`,
+  description: 'Sửa máy lạnh, vệ sinh và lắp đặt điện lạnh tại Phú Quốc. Hỗ trợ nhanh, báo giá rõ ràng, bảo hành dài hạn. Hotline 0961 316 346.',
   keywords: [
     'sửa máy lạnh phú quốc',
+    'điện lạnh phú quốc',
     'vệ sinh máy lạnh phú quốc',
-    'lắp đặt máy lạnh phú quốc',
-    'thợ điện lạnh dương đông',
-    'bảo trì máy lạnh resort phú quốc',
-    'điện lạnh sơn phát',
+    'nạp gas máy lạnh phú quốc',
+    'sửa điều hòa phú quốc',
+    'thợ điện lạnh phú quốc',
   ],
+  alternates: {
+    canonical: 'https://www.dienlanhsonphat.io.vn',
+  },
   authors: [{ name: config.brandName }],
   icons: {
     icon: '/images/son_phat_logo.png',
@@ -36,10 +39,10 @@ export const metadata: Metadata = {
     apple: '/images/son_phat_logo.png',
   },
   openGraph: {
-    title: `${config.brandName} - Dịch Vụ Điện Lạnh Uy Tín Số 1 Phú Quốc`,
-    description: `Dịch vụ sửa chữa, bảo trì, vệ sinh & nạp gas máy lạnh tận nhà. Có mặt trong 30 phút. Bảo hành dài hạn.`,
+    title: 'Sửa Máy Lạnh Phú Quốc | Điện Lạnh Sơn Phát',
+    description: 'Sửa máy lạnh, vệ sinh và lắp đặt điện lạnh tại Phú Quốc. Hỗ trợ nhanh, báo giá rõ ràng, bảo hành dài hạn. Hotline 0961 316 346.',
     siteName: config.brandName,
-    url: 'https://dien-lanh-son-phat.vercel.app',
+    url: 'https://www.dienlanhsonphat.io.vn',
     images: [
       {
         url: '/images/son_phat_logo.png',
@@ -53,8 +56,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${config.brandName} - Dịch Vụ Điện Lạnh Uy Tín Phú Quốc`,
-    description: `Dịch vụ sửa chữa, bảo trì, vệ sinh & nạp gas máy lạnh tận nhà tại Phú Quốc.`,
+    title: 'Sửa Máy Lạnh Phú Quốc | Điện Lạnh Sơn Phát',
+    description: 'Sửa máy lạnh, vệ sinh và lắp đặt điện lạnh tại Phú Quốc. Hỗ trợ nhanh, báo giá rõ ràng, bảo hành dài hạn. Hotline 0961 316 346.',
     images: ['/images/son_phat_logo.png'],
   },
 };

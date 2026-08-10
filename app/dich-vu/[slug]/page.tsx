@@ -43,8 +43,48 @@ export default async function ServiceDetailPage({ params }: Props) {
     notFound();
   }
 
+  const serviceJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: service.title,
+    provider: {
+      '@type': 'HVACBusiness',
+      name: 'Cơ Điện Lạnh Sơn Phát Phú Quốc',
+      url: 'https://www.dienlanhsonphat.io.vn',
+      telephone: '+84987654321',
+    },
+    areaServed: {
+      '@type': 'AdministrativeArea',
+      name: 'Thành phố Phú Quốc',
+    },
+    description: service.description,
+  };
+
+  const faqJsonLd = service.faqs && service.faqs.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: service.faqs.map(faq => ({
+      '@type': 'Question',
+      name: faq.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.a,
+      },
+    })),
+  } : null;
+
   return (
     <div className="py-10 space-y-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       {/* Hero Section */}
       <section className="bg-slate-900 text-white py-12 px-4 relative overflow-hidden">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">

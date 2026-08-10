@@ -85,8 +85,35 @@ export default async function BlogPostDetailPage({ params }: Props) {
     notFound();
   }
 
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.excerpt,
+    image: post.image.startsWith('http') ? post.image : `https://www.dienlanhsonphat.io.vn${post.image}`,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      '@type': 'Person',
+      name: post.author,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Cơ Điện Lạnh Sơn Phát Phú Quốc',
+      url: 'https://www.dienlanhsonphat.io.vn',
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.dienlanhsonphat.io.vn/blog/${post.slug}`,
+    },
+  };
+
   return (
     <article className="py-10 space-y-12 max-w-5xl mx-auto px-4">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-xs text-slate-500 font-bold uppercase tracking-wider">
         <Link href="/" className="hover:underline">Trang chủ</Link>

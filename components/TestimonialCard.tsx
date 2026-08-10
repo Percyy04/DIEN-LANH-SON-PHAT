@@ -34,9 +34,9 @@ export default function TestimonialCard({ testimonial }: TestimonialCardProps) {
         />
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-1.5">
-            <h4 className="text-sm font-extrabold text-hvac-navy truncate">
+            <div className="text-sm font-extrabold text-hvac-navy truncate">
               {testimonial.name}
-            </h4>
+            </div>
             <CheckCircle2 className="w-3.5 h-3.5 text-hvac-accent shrink-0" />
           </div>
           <p className="text-xs text-slate-500 truncate">{testimonial.role}</p>

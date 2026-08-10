@@ -32,9 +32,9 @@ export default function ProjectCard({ project }: ProjectCardProps) {
 
       <div className="p-5 flex-1 flex flex-col justify-between space-y-3">
         <div className="space-y-2">
-          <h3 className="font-extrabold text-base text-hvac-navy group-hover:text-hvac-primary transition-colors line-clamp-2">
+          <div className="font-extrabold text-base text-hvac-navy group-hover:text-hvac-primary transition-colors line-clamp-2">
             {project.title}
-          </h3>
+          </div>
           <p className="text-xs text-slate-600 leading-relaxed line-clamp-2">
             {project.description}
           </p>

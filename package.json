@@ -10,7 +10,6 @@
     "seed:supabase": "node scripts/sync-to-supabase.mjs"
   },
   "dependencies": {
-    "@next/swc-win32-x64-msvc": "^16.3.0",
     "@supabase/server": "^1.4.1",
     "@supabase/supabase-js": "^2.112.2",
     "clsx": "^2.1.1",

@@ -13,8 +13,8 @@ export default function Footer() {
         {/* Col 1: Brand Info */}
         <div className="space-y-4">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-2xl bg-hvac-primary flex items-center justify-center text-white shadow-glow-blue">
-              <Snowflake className="w-6 h-6" />
+            <div className="w-10 h-10 rounded-2xl bg-white p-1 flex items-center justify-center shadow-md overflow-hidden">
+              <img src="/images/son_phat_logo.png" alt={config.brandName} className="w-full h-full object-contain" />
             </div>
             <div className="flex flex-col">
               <span className="font-extrabold text-xl text-white tracking-tight">

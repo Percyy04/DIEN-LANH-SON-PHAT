@@ -60,8 +60,8 @@ export default function Header() {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-hvac-primary to-hvac-primaryDark flex items-center justify-center text-white shadow-glow-blue group-hover:scale-105 transition-all">
-              <Snowflake className="w-6 h-6 animate-spin-slow text-cyan-200" />
+            <div className="w-11 h-11 rounded-2xl bg-white p-1 flex items-center justify-center shadow-md border border-slate-100 group-hover:scale-105 transition-all overflow-hidden">
+              <img src="/images/son_phat_logo.png" alt={config.brandName} className="w-full h-full object-contain" />
             </div>
             <div className="flex flex-col">
               <span className="font-extrabold text-lg sm:text-xl text-hvac-navy tracking-tight group-hover:text-hvac-primary transition-colors">

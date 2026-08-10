@@ -8,9 +8,10 @@ export default function JsonLd() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: config.brandName,
-    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800&auto=format&fit=crop',
-    '@id': 'https://dienlanhsonphatphuquoc.com',
-    url: 'https://dienlanhsonphatphuquoc.com',
+    image: 'https://dien-lanh-son-phat.vercel.app/images/son_phat_logo.png',
+    logo: 'https://dien-lanh-son-phat.vercel.app/images/son_phat_logo.png',
+    '@id': 'https://dien-lanh-son-phat.vercel.app',
+    url: 'https://dien-lanh-son-phat.vercel.app',
     telephone: config.hotlineRaw,
     priceRange: '150000VND - 1000000VND',
     address: {

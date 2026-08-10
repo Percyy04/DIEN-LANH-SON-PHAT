@@ -15,6 +15,7 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://dien-lanh-son-phat.vercel.app'),
   title: {
     default: `${config.brandName} - Sửa Máy Lạnh Tận Nơi Tại Phú Quốc | Hotline ${config.hotline}`,
     template: `%s | ${config.brandName}`,
@@ -29,12 +30,32 @@ export const metadata: Metadata = {
     'điện lạnh sơn phát',
   ],
   authors: [{ name: config.brandName }],
+  icons: {
+    icon: '/images/son_phat_logo.png',
+    shortcut: '/images/son_phat_logo.png',
+    apple: '/images/son_phat_logo.png',
+  },
   openGraph: {
     title: `${config.brandName} - Dịch Vụ Điện Lạnh Uy Tín Số 1 Phú Quốc`,
     description: `Dịch vụ sửa chữa, bảo trì, vệ sinh & nạp gas máy lạnh tận nhà. Có mặt trong 30 phút. Bảo hành dài hạn.`,
     siteName: config.brandName,
+    url: 'https://dien-lanh-son-phat.vercel.app',
+    images: [
+      {
+        url: '/images/son_phat_logo.png',
+        width: 800,
+        height: 800,
+        alt: config.brandName,
+      },
+    ],
     locale: 'vi_VN',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${config.brandName} - Dịch Vụ Điện Lạnh Uy Tín Phú Quốc`,
+    description: `Dịch vụ sửa chữa, bảo trì, vệ sinh & nạp gas máy lạnh tận nhà tại Phú Quốc.`,
+    images: ['/images/son_phat_logo.png'],
   },
 };
 
